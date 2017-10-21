@@ -1,0 +1,102 @@
+ * {
+     padding: 0;
+     margin: 0;
+     font-size: 100%;
+     border: 0;
+     box-sizing: border-box;
+ }
+
+
+ body {
+     background: url("http://hdwpro.com/wp-content/uploads/2016/03/Free-Cool-Background.jpg") no-repeat fixed center;
+     position: fixed;
+ }
+
+ body section.wrapper,
+ header {
+     text-align: center;
+ }
+
+ header img {
+     width: 20%;
+ }
+
+ body section p {
+     color: white;
+     margin-left: auto;
+     margin-right: auto;
+     height: 38px;
+     overflow-y: hidden;
+ }
+
+ body section div ul img {
+     width: 100%;
+ }
+
+ body section div ul {
+     margin-left: auto;
+     margin-right: auto;
+     text-align: center;
+     width: 80%;
+
+ }
+
+ body section div ul li {
+     width: 49%;
+     height: 10%;
+     display: inline-block;
+     border: 1px solid black;
+     font-size: auto;
+     background-color: dimgray;
+     vertical-align: top;
+ }
+
+ body section form div input#js-query {
+     width: 25%;
+     line-height: 33px;
+     font-size: 20px;
+     padding: 3px;
+ }
+
+
+ body section form div input#submit {
+     width: 4rem;
+     height: 2.5rem;
+     border-radius: 10px;
+     font-size: 15px;
+     background-color: dimgray;
+     color: white;
+ }
+
+ .container {
+     width: 100%;
+     margin-top: 20px;
+     margin-left: auto;
+     margin-right: auto;
+     color: #ff1a1a;
+     text-shadow: -1px -1px 0 #ffffff,
+     1px -1px 0 #ffffff,
+     -1px 1px 0 #ffffff,
+     1px 1px 0 #ffffff;
+     font-size: 75px;
+
+ }
+
+ body section p img#results {
+     width: 50%;
+     height: 100px;
+     margin: 10px;
+ }
+
+ /* media queries */
+
+ @media only screen and (max-width:724px) {
+     body section div ul li {
+         width: 100%;
+         display: block;
+     }
+
+     .youtube_pic {
+         background-size: cover;
+     }
+ }
