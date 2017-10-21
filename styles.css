@@ -9,6 +9,7 @@
 
  body {
      background: url("http://hdwpro.com/wp-content/uploads/2016/03/Free-Cool-Background.jpg") no-repeat fixed center;
+     background-size: cover;
  }
 
  body section.wrapper,
@@ -95,7 +96,7 @@
          display: block;
      }
 
-     .youtube_pic {
-         background-size: cover;
+     body section form div input#js-query {
+         width: 35%;
      }
  }
