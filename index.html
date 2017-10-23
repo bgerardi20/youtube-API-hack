@@ -13,17 +13,18 @@
 
 <body>
 
-    <header role="header">
-        <img src="youtube-high-resolution-logo-download.png" alt="youtube_logo">
+    <header role="heading">
+        <img src="youtube-high-resolution-logo-download.png" alt="youtube_logo" class="youtube_pic">
     </header>
 
     <section class="wrapper">
 
 
-        <form id="js-search-form">
+        <form action="#" name="youtube-search" id="js-search-form">
             <div class="search">
-                <input type="text" id="js-query" placeholder="Search Here...">
-                <input type="submit" id="submit" value="Search">
+                <label for="js-query">Search for your favorite videos: </label> <br>
+                <input type="text" id="js-query" placeholder="My favorite video..."> <br>
+                <input type="submit" id="submit" value="Search"> <br>
             </div>
         </form>
 
@@ -32,12 +33,16 @@
             Results..
         </h2>
 
+    </section>
 
+
+    <main role="main" aria-live="assertive" hidden>
         <div class="js-search-results">
             <ul></ul>
         </div>
+    </main>
 
-    </section>
+
 </body>
 
 </html>

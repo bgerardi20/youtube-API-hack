@@ -12,7 +12,7 @@
      background-size: cover;
  }
 
- body section.wrapper,
+ section.wrapper,
  header {
      text-align: center;
  }
@@ -21,7 +21,7 @@
      width: 20%;
  }
 
- body section p {
+ section p {
      color: white;
      margin-left: auto;
      margin-right: auto;
@@ -29,11 +29,11 @@
      overflow-y: hidden;
  }
 
- body section div ul img {
+ section div ul img {
      width: 100%;
  }
 
- body section div ul {
+ section div ul {
      margin-left: auto;
      margin-right: auto;
      text-align: center;
@@ -41,7 +41,7 @@
 
  }
 
- body section div ul li {
+ section div ul li {
      width: 49%;
      height: 10%;
      display: inline-block;
@@ -51,7 +51,16 @@
      vertical-align: top;
  }
 
- body section form div input#js-query {
+ section form div label {
+     color: white;
+     font-size: 25px;
+     text-shadow: -1px -1px 0 #ff1a1a,
+     1px -1px 0 #ff1a1a,
+     -1px 1px 0 #ff1a1a,
+     1px 1px 0 #ff1a1a;
+ }
+
+ section form div input#js-query {
      width: 25%;
      line-height: 33px;
      font-size: 20px;
@@ -59,16 +68,17 @@
  }
 
 
- body section form div input#submit {
-     width: 4rem;
+ section form div input#submit {
+     width: 16.5rem;
      height: 2.5rem;
      border-radius: 10px;
      font-size: 15px;
      background-color: dimgray;
      color: white;
+     margin-top: 5px;
  }
 
- .container {
+ section h2.container {
      width: 100%;
      margin-top: 20px;
      margin-left: auto;
@@ -82,7 +92,7 @@
 
  }
 
- body section p img#results {
+ section p img#results {
      width: 50%;
      height: 100px;
      margin: 10px;
@@ -91,12 +101,12 @@
  /* media queries */
 
  @media only screen and (max-width:724px) {
-     body section div ul li {
+     section div ul li {
          width: 100%;
          display: block;
      }
 
-     body section form div input#js-query {
+     section form div input#js-query {
          width: 35%;
      }
  }
